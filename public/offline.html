@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>আমার বাকি খাতা - অফলাইন মোড</title>
+  <style>
+    body {
+      font-family: 'Hind Siliguri', 'Noto Sans Bengali', system-ui, -apple-system, sans-serif;
+      background-color: #f8fafc;
+      color: #0f172a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      box-sizing: border-box;
+    }
+    .card {
+      background: white;
+      padding: 32px 24px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+      max-width: 380px;
+      width: 100%;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 9999px;
+      background: #fef3c7;
+      color: #b45309;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #d97706;
+    }
+    h1 {
+      font-size: 22px;
+      margin: 0 0 10px 0;
+      color: #065f46;
+    }
+    p {
+      color: #64748b;
+      font-size: 15px;
+      line-height: 1.5;
+      margin: 0 0 20px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #059669;
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 15px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">
+      <span class="dot"></span>
+      <span>অফলাইন মোড</span>
+    </div>
+    <h1>আমার বাকি খাতা</h1>
+    <p>আপনি বর্তমানে অফলাইনে আছেন। চিন্তা নেই! আপনার সমস্ত সংরক্ষিত তথ্য ফোনে সুরক্ষিত আছে এবং নতুন হিসাবও যোগ করতে পারবেন।</p>
+    <button class="btn" onclick="window.location.href='/'">অ্যাপে ফিরে যান</button>
+  </div>
+</body>
+</html>

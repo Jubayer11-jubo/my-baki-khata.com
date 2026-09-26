@@ -1,0 +1,6 @@
+{
+  "name": "আমার বাকি খাতা",
+  "description": "ব্যক্তিগত বাকি হিসাব রাখার অ্যাপ - কোথায় কত বাকি—হিসাব থাকুক আপনার হাতেই।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
